@@ -21,10 +21,10 @@ In order to set up our own environment we are going to insall XAMPP. Go to [XAMP
 
 1. For Linux<br>
   * Change installer permissions<br>
-     `chmod 755 xampp-linux-*-installer.run`<br>
-  * Run the installer
-	    `sudo ./xampp-linux-*-installer.run`<br>
-  * Start XAMPP
-      `sudo /opt/lampp/lampp start`<br>
-  * Stop XAMPP
-      `sudo /opt/lampp/lampp stop`<br>
+    `chmod 755 xampp-linux-*-installer.run`<br>
+  * Run the installer<br>
+    `sudo ./xampp-linux-*-installer.run`<br>
+  * Start XAMPP<br>
+    `sudo /opt/lampp/lampp start`<br>
+  * Stop XAMPP<br>
+    `sudo /opt/lampp/lampp stop`<br>
