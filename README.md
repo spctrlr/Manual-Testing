@@ -17,14 +17,14 @@ Since the project is not going to be uploaded, we need to install the following:
 
 In order to set up our own environment we are going to insall XAMPP. Go to [XAMPP](https://www.apachefriends.org) page and download appropriate version for your operating system.
 1. For windows<br>
-  * Run the installer and follow the instructions.
+  1. Run the installer and follow the instructions.
 
 1. For Linux<br>
-  * Change installer permissions<br>
+  1. Change installer permissions<br>
     `chmod 755 xampp-linux-*-installer.run`<br>
-  * Run the installer<br>
+  2. Run the installer<br>
     `sudo ./xampp-linux-*-installer.run`<br>
-  * Start XAMPP<br>
+  3. Start XAMPP<br>
     `sudo /opt/lampp/lampp start`<br>
-  * Stop XAMPP<br>
+  4. Stop XAMPP<br>
     `sudo /opt/lampp/lampp stop`<br>
