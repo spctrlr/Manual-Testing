@@ -15,7 +15,7 @@ Since the project is not going to be uploaded, we need to install the following:
 
 # Install and configure
 
-### In order to set up our own environment we are going to insall XAMPP.
+In order to set up our own environment we are going to insall XAMPP.
 Go to [XAMPP](https://www.apachefriends.org/download.html) page and download appropriate version for your operating system.
 - For windows<br>
   Run the installer and follow the instructions.
