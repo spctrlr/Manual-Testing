@@ -21,13 +21,13 @@ Since the project is not going to be uploaded, we need to install the following:
 ## Install and configure
 
 In order to set up our own environment we are going to insall XAMPP. Go to [XAMPP](https://www.apachefriends.org) page and download appropriate version for your operating system.
-*. For windows<br>
+* For windows<br>
   1.1 Run the installer and follow the instructions.<br>
 
-*. Follow section 2 from lixun guide.<br>
+* Follow section 2 from lixun guide.<br>
 
 
-*. For Linux<br>
+* For Linux<br>
   1.1 Change installer permissions<br>
     `chmod 755 xampp-linux-*-installer.run`<br>
  
@@ -43,7 +43,7 @@ In order to set up our own environment we are going to insall XAMPP. Go to [XAMP
   1.5 Check if its installed/started correct:<br>
     `firefox https://localhost`<br>
     
-*. Go to where the opencart-4.0.2.1 is and extract the .zip file<br>
+* Go to where the opencart-4.0.2.1 is and extract the .zip file<br>
   2.1 Copy it to XAMPP htdocs directory<br>
 	`sudo mv opencart-4.0.2.1 /opt/lampp/htdocs/`<br>
   
