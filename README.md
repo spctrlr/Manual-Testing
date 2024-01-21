@@ -21,30 +21,39 @@ Since the project is not going to be uploaded, we need to install the following:
 ## Install and configure
 
 In order to set up our own environment we are going to insall XAMPP. Go to [XAMPP](https://www.apachefriends.org) page and download appropriate version for your operating system.
-1. For windows<br>
+*. For windows<br>
   1.1 Run the installer and follow the instructions.<br>
 
-2. Follow section 2 from lixun guide.<br>
+*. Follow section 2 from lixun guide.<br>
 
 
-1. For Linux<br>
+*. For Linux<br>
   1.1 Change installer permissions<br>
     `chmod 755 xampp-linux-*-installer.run`<br>
+ 
   1.2 Run the installer<br>
     `sudo ./xampp-linux-*-installer.run`<br>
+  
   1.3 Start XAMPP<br>
     `sudo /opt/lampp/lampp start`<br>
+  
   1.4 Stop XAMPP<br>
     `sudo /opt/lampp/lampp stop`<br>
+  
   1.5 Check if its installed/started correct:<br>
     `firefox https://localhost`<br>
     
-2. Go to where the opencart-4.0.2.1 is and extract the .zip file<br>
+*. Go to where the opencart-4.0.2.1 is and extract the .zip file<br>
   2.1 Copy it to XAMPP htdocs directory<br>
 	`sudo mv opencart-4.0.2.1 /opt/lampp/htdocs/`<br>
+  
   2.2 Grant user permisions to read & write /htdocs directory<br>
 	`sudo chmod -R 777 /opt/lampp/htdocs`<br>
-  2.3 Go to _/opt/lampp/htdocs/opencart/upload/_ and change: **config-dist.php --> config.php**<br>
-  2.4 Go to _/opt/lampp/htdocs/opencart/upload/admin/_ and change: **config-dist.php --> config.php**<br>
+  
+  2.3 Go to _/opt/lampp/htdocs/opencart/upload/_ and change: `config-dist.php --> config.php`<br>
+  
+  2.4 Go to _/opt/lampp/htdocs/opencart/upload/admin/_ and change: `config-dist.php --> config.php`<br>
+  
   2.5 Go to _https://localhost/phpmyadmin/_ and create a data base called _'opencart'_ and select _'Collation'_ from drop down menu located next to the database name<br>
+  
   2.6 Establish a connection between the application and database: Open _https://localhost/opencart/_, click on _/upload_ folder and follow the instructions
