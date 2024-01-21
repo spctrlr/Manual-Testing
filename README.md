@@ -35,6 +35,7 @@ In order to set up our own environment we are going to insall XAMPP. Go to [XAMP
     `sudo /opt/lampp/lampp stop`<br>
   1.5 Check if its installed/started correct:<br>
     `firefox https://localhost`<br>
+    
 2. Go to where the opencart-4.0.2.1 is and extract the .zip file<br>
   2.1 Copy it to XAMPP htdocs directory<br>
 	`sudo mv opencart-4.0.2.1 /opt/lampp/htdocs/`<br>
