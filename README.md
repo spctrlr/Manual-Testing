@@ -24,14 +24,26 @@ In order to set up our own environment we are going to insall XAMPP. Go to [XAMP
 1. For windows<br>
   1.1 Run the installer and follow the instructions.
 
-- For Linux<br>
-  1. Change installer permissions<br>
+1 For Linux<br>
+  1.1 Change installer permissions<br>
     `chmod 755 xampp-linux-*-installer.run`<br>
-  2. Run the installer<br>
+  1.2 Run the installer<br>
     `sudo ./xampp-linux-*-installer.run`<br>
-  3. Start XAMPP<br>
+  1.3 Start XAMPP<br>
     `sudo /opt/lampp/lampp start`<br>
-  4. Stop XAMPP<br>
+  1.4 Stop XAMPP<br>
     `sudo /opt/lampp/lampp stop`<br>
-  5. Check if its installed/started correct:<br>
+  1.5 Check if its installed/started correct:<br>
     `firefox https://localhost`<br>
+2. Go to where the opencart-4.0.2.1 is and extract the .zip file<br>
+  2.1 Copy it to XAMPP htdocs directory<br>
+	`sudo mv opencart-4.0.2.1 /opt/lampp/htdocs/`<br>
+  2.2 Grant user permisions to read & write /htdocs directory<br>
+	`sudo chmod -R 777 /opt/lampp/htdocs`<br>
+  2.3 Go to /opt/lampp/htdocs/opencart/upload/ and change:<br>
+	> config-dist.php --> config.php<br>
+  2.4 Go to /opt/lampp/htdocs/opencart/upload/admin/ and change:<br>
+	> config-dist.php --> config.php<br>
+  2.5 Go to https://localhost/phpmyadmin/ and create a data base called 'opencart' and select 'Collation' from drop down menu located next to the database name<br>
+  2.6 Establish a connection between the application and database<br>
+	> Open https://localhost/opencart/, click on /upload link/folder and follow the instructions
