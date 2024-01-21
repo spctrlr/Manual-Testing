@@ -14,7 +14,7 @@ Tests and test environment are created under linux at the time of testing.
 ## Requirements
 Since the project is not going to be uploaded, we need to install the following:<br>
 * PHP 5.4**<br>
-* Database (MySQL suggested)**<br>
+* Database (MySQL suggested)<br>
 * Web Server (Apache suggested)**<br>
 
 
@@ -41,10 +41,7 @@ In order to set up our own environment we are going to insall XAMPP. Go to [XAMP
 	`sudo mv opencart-4.0.2.1 /opt/lampp/htdocs/`<br>
   2.2 Grant user permisions to read & write /htdocs directory<br>
 	`sudo chmod -R 777 /opt/lampp/htdocs`<br>
-  2.3 Go to /opt/lampp/htdocs/opencart/upload/ and change:<br>
-	> config-dist.php --> config.php<br>
-  2.4 Go to /opt/lampp/htdocs/opencart/upload/admin/ and change:<br>
-	> config-dist.php --> config.php<br>
+  2.3 Go to _/opt/lampp/htdocs/opencart/upload/_ and change: config-dist.php --> config.php<br>
+  2.4 Go to /opt/lampp/htdocs/opencart/upload/admin/ and change: config-dist.php --> config.php<br>
   2.5 Go to https://localhost/phpmyadmin/ and create a data base called 'opencart' and select 'Collation' from drop down menu located next to the database name<br>
-  2.6 Establish a connection between the application and database<br>
-	> Open https://localhost/opencart/, click on /upload link/folder and follow the instructions
+  2.6 Establish a connection between the application and database: Open https://localhost/opencart/, click on /upload link/folder and follow the instructions
