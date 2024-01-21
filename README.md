@@ -27,10 +27,11 @@ In order to set up our own environment we are going to insall XAMPP. Go to [XAMP
    2.2 Follow section 2 from linux guide.<br>
 
 
+
 ### For Linux<br>
 
-   1.1 Change installer permissions<br>
-    `chmod 755 xampp-linux-*-installer.run`<br>
+1. Change installer permissions<br>
+ `chmod 755 xampp-linux-*-installer.run`<br>
  
    1.2 Run the installer<br>
     `sudo ./xampp-linux-*-installer.run`<br>
