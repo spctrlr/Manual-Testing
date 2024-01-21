@@ -21,7 +21,7 @@ Since the project is not going to be uploaded, we need to install the following:
 ## Install and configure
 
 In order to set up our own environment we are going to insall XAMPP. Go to [XAMPP](https://www.apachefriends.org) page and download appropriate version for your operating system.
-- For windows<br>
+1. For windows<br>
   1. Run the installer and follow the instructions.
 
 - For Linux<br>
@@ -33,3 +33,5 @@ In order to set up our own environment we are going to insall XAMPP. Go to [XAMP
     `sudo /opt/lampp/lampp start`<br>
   4. Stop XAMPP<br>
     `sudo /opt/lampp/lampp stop`<br>
+  5. Check if its installed/started correct:<br>
+    `firefox https://localhost`<br>
