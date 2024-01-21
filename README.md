@@ -18,7 +18,7 @@ Before diving into testing, make sure to have the following components installed
 In order to set up our own environment we are going to insall XAMPP. Go to [XAMPP](https://www.apachefriends.org) page and download appropriate version for your operating system.<br>
 
 ### For windows<br>
-   1. Download XAMPP from XAMPP, run the installer, and follow the on-screen instructions.<br>
+   1. Download XAMPP from [XAMPP](https://www.apachefriends.org), run the installer, and follow the on-screen instructions.<br>
    2. Continue with Section 2 of the Linux guide.
 
 
