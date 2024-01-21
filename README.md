@@ -6,10 +6,10 @@ OpenCart is an online store management system developed by Hong Kong-based OpenC
 
 
 # Requirements
-Since the project is not going to be uploaded, we need to install the following:
-**PHP 5.4**
-**Database (MySQL suggested)**
-**Web Server (Apache suggested)**
+Since the project is not going to be uploaded, we need to install the following:<br>
+**PHP 5.4**<br>
+**Database (MySQL suggested)**<br>
+**Web Server (Apache suggested)**<br>
 
 
 # Install and configure
